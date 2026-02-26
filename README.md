@@ -1,5 +1,4 @@
 # ⚙️ API Backend - Portal de Empleados
-## Desarrollado por Eric Valera
 
 **Descripción del Proyecto**
 Este repositorio contiene el Backend (API REST) para un sistema integral de gestión de empleados. Desarrollado con **PHP 8** y **MySQL**, su propósito principal es gestionar de forma segura y eficiente la información del personal, proveyendo datos limpios a través de endpoints JSON. 
@@ -58,3 +57,5 @@ services:
 
 volumes:
   db_data:
+```
+## Desarrollado por Eric Valera
