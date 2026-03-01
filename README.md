@@ -1,12 +1,11 @@
 # ⚙️ API Backend - Portal de Empleados
-## Desarrollado por Eric Valera
 
 **Descripción del Proyecto**
 Este repositorio contiene el Backend (API REST) para un sistema integral de gestión de empleados. Desarrollado con **PHP 8** y **MySQL**, su propósito principal es gestionar de forma segura y eficiente la información del personal, proveyendo datos limpios a través de endpoints JSON. 
 
 El sistema no solo maneja el clásico CRUD (Crear, Leer, Actualizar, Eliminar), sino que implementa lógica de negocios real, como la prevención de correos duplicados y el manejo de **Bajas Lógicas** (soft deletes) para preservar la integridad histórica de la base de datos. Además, incluye endpoints estadísticos diseñados específicamente para alimentar un Dashboard interactivo en el Frontend.
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **Lenguaje:** PHP 8.x 
 * **Base de Datos:** MySQL 8.0
@@ -22,7 +21,7 @@ El sistema no solo maneja el clásico CRUD (Crear, Leer, Actualizar, Eliminar), 
 4. **Seguridad:** Prevención de Inyecciones SQL usando sentencias preparadas (`bindValue()`) y limpieza de inputs (`htmlspecialchars`).
 5. **CORS Habilitado:** Cabeceras configuradas para permitir peticiones transversales desde aplicaciones Frontend (Angular, React, etc.).
 
-## 📂 Endpoints Disponibles
+## Endpoints Disponibles
 
 | Endpoint | Método | Descripción |
 | :--- | :---: | :--- |
@@ -58,3 +57,6 @@ services:
 
 volumes:
   db_data:
+
+'''
+## Desarrollado por Eric Valera
